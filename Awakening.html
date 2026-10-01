@@ -1,0 +1,93 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awakening</title>
+    <link href="CSS/Integrity.css" rel="stylesheet">
+    <link href="https://googleapis.com" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="dynasty-logo">Command Node</div>
+        <nav>
+            <ul>
+              <li><a href="Tomb World.html">Tomb World's Integrity</a></li>
+                <li><a href="Legion Strength.html">Legion's Strength</a></li>
+                <li><a href="Awakening.html" class="active">Awaken the Overlord</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contact-container">
+
+            <div class="left">
+                <h1>Phaeron's Dais</h1>
+                
+                <div class="overlord-image">
+
+                    <img src="img/Necron_Overlord.webp">
+                </div>
+
+                <div class="overlord-lore">
+                    <p>
+                        <b style >The Implacable Sovereign</b> has slumbered for sixty million years, his consciousness preserved perfectly in stasis. 
+                    </p>
+                    <p>
+                        As the Supreme Commander of this Tomb World, he tolerates no insubordination and recognizes no authority but his own. His engrams are fully restored, his command protocols are absolute, and his legions await his singular word to eradicate all trespassers.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="right">
+                <h2>Submit Petition</h2>
+                <p>Transmit your diagnostics to the command node.</p>
+
+                <form class="petition-form" action="#" method="POST">
+
+                    <div class="input-group top-row">
+                        <label>Nemesor Designation</label>
+                        <input type="text" required>
+                    </div>
+                    
+                    <div class="input-group top-row">
+                        <label>Authorization Cipher</label>
+                        <input type="password" required>
+                    </div>
+
+                    <div class="input-group mid-row">
+                        <label>Tomb Sector</label>
+                        <input type="text" required>
+                    </div>
+
+                    <div class="input-group mid-row">
+                        <label>Energy Reserves</label>
+                        <input type="text" placeholder="Percentage %" required>
+                    </div>
+
+                    <div class="input-group mid-row">
+                        <label>Threat Level</label>
+                        <input type="text" placeholder="Low / High" required>
+                    </div>
+
+                    <div class="input-group full-row">
+                        <label>Transmission Data</label>
+                        <textarea placeholder="State your reason for awakening the Sovereign..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn full-row">Transmit to Dais</button>
+
+                </form>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        &copy; M41.999 <span class="neon-text">||</span> The Dynasty Awaits <span class="neon-text">||</span> RECLAIM OUR LOST GLORY
+    </footer>
+</body>
+</html>
